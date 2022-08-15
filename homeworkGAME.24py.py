@@ -23,7 +23,3 @@ while True:
         print(f'poprobuy ewe')
         print(f'poputka # {i}')
         i += 1
-
-
-3
-3
