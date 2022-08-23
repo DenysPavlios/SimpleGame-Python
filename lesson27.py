@@ -39,3 +39,32 @@ f(1, 2, 3, 4, b='test', c='hi')
 f(1, 2)
 
 
+
+# def set_regist(s):
+#     if ' ' in s:
+#         return s.upper()
+#     else:
+#         return s.lower()
+# print(set_regist('Hello world'))
+# print(set_regist('Hello,world'))
+
+#----------------------------------
+
+
+def f(a,x,*args, **kwargs):
+    print(a,x,args,kwargs)
+    print(a)
+    print(x)
+    print(args)
+    print(kwargs)
+
+f(1,2,3,3,3,c='argsss',b='kwargs')
+
+
+
+
+
+
+
+
+

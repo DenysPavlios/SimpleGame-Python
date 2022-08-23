@@ -98,4 +98,38 @@ names = ["Ryan", "Kieran", "Mark", "John", "David", "Paul"] # ["Ryan", "Mark", "
 
 def get_names(names):
     pass
+''
+
+l = [1, 2, 3]
+def f(l):
+    return [i * 2 for i in l]
+
+print(f(l))
+
+
+# def f2(l):
+#     def get_mult(x):
+#         return x * 2
+#     return [get_mult(i) for i in l]
+#
+# print(f2(l))
+#
+w = [3, 2, 1]
+
+
+# def s(w):
+#     def k(b):
+#         return b * 2
+#     return [k(i) for i in w]
+# print(s(w))
+
+q = [3, '2', 1]
+
+
+def l(q):
+    def a(z):
+        return int(z) * 2
+    return [a(i) for i in q]
+print(l(q))
+
 

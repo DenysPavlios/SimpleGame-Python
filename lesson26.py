@@ -25,3 +25,13 @@
 #     print('Hi')
 #
 # hi()
+
+
+def get_sum(a, b):
+    return a + b
+
+x = get_sum(2,3)
+print(get_sum(1 , 2))
+print(x)
+
+
